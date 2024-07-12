@@ -1,23 +1,19 @@
- /* Width and height of the scrollbar */
-        ::-webkit-scrollbar {
-            width: 10px; /* Width of the scrollbar */
-            height: 10px; /* Height of the horizontal scrollbar */
-        }
+/* Universal removal of scrollbar for WebKit browsers */
+::-webkit-scrollbar {
+	display: none; /* This hides the scrollbar universally for WebKit browsers */
+}
 
-        /* Track of the scrollbar */
-        ::-webkit-scrollbar-track {
-            background:  #0c0c0c; /* Light grey track */
-           
-        }
+/* For Firefox */
+* {
+	scrollbar-width: none; /* This hides the scrollbar in Firefox */
+}
 
-        /* Handle of the scrollbar */
-        ::-webkit-scrollbar-thumb {
-            background:#f1f1f1; /* Dark grey handle */
-            border-radius: 20px; /* Rounded edges for the handle */
-        }
-
-        /* Handle on hover */
-        ::-webkit-scrollbar-thumb:hover {
-            background: #ffffff; /* Darker grey handle on hover */
-        }
+/* For IE and Edge */
+* {
+	-ms-overflow-style: none; /* This hides the scrollbar in IE and Edge */
+}
        
+html,body{
+    height: 100%;
+    width: 100%;
+}
