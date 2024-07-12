@@ -1,0 +1,121 @@
+
+/* The hero image */
+#about-image {
+    /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/Assets/Image/About/about\ 1.jpg");
+  
+    /* Set a specific height */
+    height: 100%;
+  
+    /* Position and center the image to scale nicely on all screens */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  
+  /* Place text in the middle of the image */
+  #about-text {
+    text-align: left;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+  
+  #about-text h1 {
+    font-size: 3em;
+  }
+  
+  #about-text p {
+    font-size: 1.5em;
+  }
+
+  #about-normal-text {
+    top: 25%;
+    color: white; 
+    position: absolute;
+    left: 25%;
+    padding: 50px;
+    font-size: large;
+  }
+
+  #about-normal-text p {
+    font-size: 1.1em;
+  }
+
+  #about-skill h1 {
+    font-size: 1.5em;
+  }
+  
+  #about-skill p {
+    font-size: 0.8em;
+  }
+
+  #about-skill-text {
+    top: 37%;
+    color: white; 
+    position: absolute;
+    left: 25%;
+    padding: 50px;
+  }
+
+  #about-skill-text p {
+    font-size: 1.2em;
+  }
+
+  #about-programming-language-text{
+    top: 49%;
+    color: white; 
+    position: absolute;
+    left: 25%;
+    padding: 50px;
+  }
+
+  #about-tools-text{
+    top: 49%;
+    color: white; 
+    position: absolute;
+    left: 47%;
+    padding: 50px;
+  }
+
+  #about-soft-skills-text{
+    top: 49%;
+    color: white; 
+    position: absolute;
+    left: 57%;
+    padding: 50px;
+  }
+
+  #about-packages-learnt-text{
+    top: 49%;
+    color: white; 
+    position: absolute;
+    left: 72%;
+    padding: 50px;
+  }
+
+  #about-spoken-language-text{
+    top: 49%;
+    color: white; 
+    position: absolute;
+    left: 85%;
+    padding: 50px;
+  }
+
+  #about-internships-text{
+    top: 74%;
+    color: white; 
+    position: absolute;
+    left: 47%;
+    padding: 50px;
+  }
+
+  #about-image li{
+    font-size: medium;
+  }
+  
+
+  

@@ -1,0 +1,35 @@
+/* Renaming .line to .straight-line for clarity */
+.straight-line {
+    width: 100%; /* Line width */
+    height: 4px; /* Line thickness */
+    background-color: black; /* Line color */
+  }
+  
+  /* Renaming .arrow-right to .right-arrow for consistency */
+  .right-arrow {
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent; /* Size of the top border */
+    border-bottom: 10px solid transparent; /* Size of the bottom border */
+    border-left: 20px solid black; /* Color and width of the arrow */
+  }
+  
+  /* Adjusting the inner .line and .arrow-right within .line-with-arrow to use new class names */
+  .flex-line-with-arrow {
+    display: flex;
+    align-items: center;
+  }
+  
+  .flex-line-with-arrow .straight-line {
+    width: 100px; /* Adjust based on your needs */
+    height: 2px;
+    background-color: black;
+  }
+  
+  .flex-line-with-arrow .right-arrow {
+    width: 0;
+    height: 0;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 10px solid black;
+  }

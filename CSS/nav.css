@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body, html {
+  height: 100%;
+  overflow-x: hidden; /* Hide horizontal overflow */
+}
+
+
+
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #090202;
+  text-align: center; /* Center inline elements */
+}
+
+#navigation li {
+  display: inline-block; /* Instead of float: left; */
+}
+
+#navigation li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: all 0.5s ease;
+}
+
+
+
+/* Change the link color to #111 (black) on hover */
+#navigation li a:hover {
+  background-color: #db942a82;
+  transition: background-color .7s ease, color 0.3s ease;
+}
+
+#navigation ul {
+  position: -webkit-sticky; /* Safari */
+  /* Ensure you close your CSS declaration */
+}
+#navigation {
+  position: fixed; /* or 'sticky' if you want it to stick only after scrolling past it */
+  top: 0;
+  width: 100%; /* Ensure it spans the full width of the viewport */
+  z-index: 1000; /* Higher than the image to ensure it overlays */
+}
+
